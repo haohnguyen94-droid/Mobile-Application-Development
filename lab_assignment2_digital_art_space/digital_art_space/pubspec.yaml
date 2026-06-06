@@ -1,0 +1,25 @@
+name: digital_art_space
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.12.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/great_wave_off_kanagawa.jpg
+    - assets/images/guernica.jpg
+    - assets/images/the_birth_of_venus.jpg
+    - assets/images/the_last_supper.jpg
+    - assets/images/the_persistence_of_memory.jpg
