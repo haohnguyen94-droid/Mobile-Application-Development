@@ -121,7 +121,7 @@ class _MortgageHomeScreenState extends State<MortgageHomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('MortgageV0')),
+      appBar: AppBar(title: const Text('Mortgage Calculator')),
       body: Padding(
         padding: const EdgeInsets.all(20),
         child: Column(
@@ -229,7 +229,7 @@ class _ModifyScreenState extends State<ModifyScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('MortgageV0')),
+      appBar: AppBar(title: const Text('Mortgage Calculator')),
       body: Padding(
         padding: const EdgeInsets.all(20),
         child: Column(
