@@ -29,7 +29,7 @@ class MortgageApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'MortgageV0',
+      title: 'Mortgage calculator',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(primarySwatch: Colors.indigo, useMaterial3: true),
       home: const MortgageHomeScreen(),
@@ -141,7 +141,7 @@ class _MortgageHomeScreenState extends State<MortgageHomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('MortgageV0')),
+      appBar: AppBar(title: const Text('Mortgage calculator')),
       body: Padding(
         padding: const EdgeInsets.all(20),
         // Consumer rebuilds these rows whenever the model changes.
@@ -253,7 +253,7 @@ class _ModifyScreenState extends State<ModifyScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('MortgageV0')),
+      appBar: AppBar(title: const Text('Mortgage calculator')),
       body: Padding(
         padding: const EdgeInsets.all(20),
         child: Column(
