@@ -1,3 +1,9 @@
+/*
+Name: Hong Nguyen
+Assignment: Lab 8 Firebase Database
+Date: 06/30/2026
+ */
+
 import 'package:firebase_core/firebase_core.dart';                  // Add this import
 import 'package:flutter/material.dart';
 
