@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "486968164701",
+    "project_id": "user-authenication-c369a",
+    "storage_bucket": "user-authenication-c369a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:486968164701:android:7ec46c518b97817230a8b4",
+        "android_client_info": {
+          "package_name": "com.example.firebase_auth_flutterfire_ui"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "486968164701-unlk8i1k2m3lf17qb9i8bvu1cmui24v6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOwqs_WUMZ2Hz1gkaAUuq-VzLrdW3LkR0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "486968164701-unlk8i1k2m3lf17qb9i8bvu1cmui24v6.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "486968164701-f6kv3bakghcqqdolgia2jj9om9mo5b99.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.firebaseAuthFlutterfireUi"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:486968164701:android:1b45862c3b32765230a8b4",
+        "android_client_info": {
+          "package_name": "com.example.user_authenication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "486968164701-unlk8i1k2m3lf17qb9i8bvu1cmui24v6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOwqs_WUMZ2Hz1gkaAUuq-VzLrdW3LkR0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "486968164701-unlk8i1k2m3lf17qb9i8bvu1cmui24v6.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "486968164701-f6kv3bakghcqqdolgia2jj9om9mo5b99.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.firebaseAuthFlutterfireUi"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
