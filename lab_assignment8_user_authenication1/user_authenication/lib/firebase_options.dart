@@ -60,7 +60,6 @@ class DefaultFirebaseOptions {
     projectId: 'user-authenication-c369a',
     storageBucket: 'user-authenication-c369a.firebasestorage.app',
   );
-
   static const FirebaseOptions ios = FirebaseOptions(
     apiKey: 'AIzaSyCHVSztv5HxdD1JXM-yqdKiJX0gON3MCE4',
     appId: '1:486968164701:ios:c22e5ec3eb0b6e0330a8b4',

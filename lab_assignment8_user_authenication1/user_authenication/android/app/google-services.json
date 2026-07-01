@@ -31,10 +31,10 @@
               "client_type": 3
             },
             {
-              "client_id": "486968164701-f6kv3bakghcqqdolgia2jj9om9mo5b99.apps.googleusercontent.com",
+              "client_id": "486968164701-40ajqf72blk0q4djv66rkumd8m4ctgpk.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.example.firebaseAuthFlutterfireUi"
+                "bundle_id": "com.example.userAuthenication"
               }
             }
           ]
@@ -67,10 +67,10 @@
               "client_type": 3
             },
             {
-              "client_id": "486968164701-f6kv3bakghcqqdolgia2jj9om9mo5b99.apps.googleusercontent.com",
+              "client_id": "486968164701-40ajqf72blk0q4djv66rkumd8m4ctgpk.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.example.firebaseAuthFlutterfireUi"
+                "bundle_id": "com.example.userAuthenication"
               }
             }
           ]

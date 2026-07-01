@@ -1,54 +1,14 @@
-import 'package:firebase_ui_auth/firebase_ui_auth.dart';
+import 'package:user_authenication/ui/note_list_screen.dart';
 import 'package:flutter/material.dart';
 
+// After a successful sign-in, AuthGate routes here.
+// This is the Lab 7 Note Saver (SQLite, Provider, Repository, GetIt),
+// now sitting behind Firebase authentication.
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        actions: [
-          IconButton(
-            icon: const Icon(Icons.person),
-            onPressed: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute<ProfileScreen>(
-                  builder: (context) => ProfileScreen(
-                    appBar: AppBar(title: const Text('User Profile')),
-                    actions: [
-                      SignedOutAction((context) {
-                        Navigator.of(context).pop();
-                      }),
-                    ],
-                    children: [
-                      const Divider(),
-                      Padding(
-                        padding: const EdgeInsets.all(2),
-                        child: AspectRatio(
-                          aspectRatio: 1,
-                          child: Image.asset('assets/flutterfire_300x.png'),
-                        ),
-                      ),
-                    ],
-                  ),
-                ),
-              );
-            },
-          ),
-        ],
-        automaticallyImplyLeading: false,
-      ),
-      body: Center(
-        child: Column(
-          children: [
-            SizedBox(width: 250, child: Image.asset('assets/dash.png')),
-            Text('Welcome!', style: Theme.of(context).textTheme.displaySmall),
-            const SignOutButton(),
-          ],
-        ),
-      ),
-    );
+    return const NoteListScreen();
   }
 }
