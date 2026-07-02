@@ -31,7 +31,7 @@ class MyApp extends StatelessWidget {
           },
           child: MaterialApp(
             debugShowCheckedModeBanner: false, // hide the DEBUG banner
-            title: 'Sqflite Note Saver',
+            title: 'Cloud database(firebase) Note Saver',
             theme: ThemeData(
               primarySwatch: Colors.teal,
               visualDensity: VisualDensity.adaptivePlatformDensity,
